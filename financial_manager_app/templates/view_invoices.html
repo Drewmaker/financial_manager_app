@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ver Facturas</title>
+</head>
+<body>
+    <h1>Facturas</h1>
+    <ul>
+        {% for factura in invoices %}
+        <li>{{ factura }}</li>
+        {% endfor %}
+    </ul>
+    <a href="/">Volver al inicio</a>
+</body>
+</html>

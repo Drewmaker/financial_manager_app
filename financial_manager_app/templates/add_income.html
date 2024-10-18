@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Añadir Ingreso</title>
+</head>
+<body>
+    <h1>Añadir Ingreso</h1>
+    <form method="POST">
+        <label>Fecha (YYYY-MM-DD):</label>
+        <input type="text" name="date" required><br>
+        <label>Monto:</label>
+        <input type="number" step="0.01" name="amount" required><br>
+        <label>Categoría (recurring/sporadic):</label>
+        <input type="text" name="category" required><br>
+        <label>Descripción:</label>
+        <input type="text" name="description"><br>
+        <input type="submit" value="Añadir Ingreso">
+    </form>
+    <a href="/">Volver al inicio</a>
+</body>
+</html>
